@@ -1,4 +1,6 @@
-package com.zyl.designpatterns.structuralpatterns.proxy;
+package com.zyl.designpatterns.structuralpatterns.proxy.staticproxy;
+
+import com.zyl.designpatterns.structuralpatterns.proxy.IShop;
 
 /**
  * Description: 代购类

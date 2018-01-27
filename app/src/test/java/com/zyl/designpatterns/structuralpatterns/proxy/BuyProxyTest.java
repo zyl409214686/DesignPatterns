@@ -1,5 +1,7 @@
 package com.zyl.designpatterns.structuralpatterns.proxy;
 
+import com.zyl.designpatterns.structuralpatterns.proxy.staticproxy.BuyProxy;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,7 +10,7 @@ import org.junit.Test;
  * Created by zouyulong on 2018/1/6.
  */
 public class BuyProxyTest {
-    private Customer mCustomer;
+    private IShop mCustomer;
     private BuyProxy mBuyProxy;
     @Before
     public void setUp() throws Exception {
@@ -17,8 +19,7 @@ public class BuyProxyTest {
     }
 
     @Test
-    public void buy() throws Exception {
+    public void buyForStatic() throws Exception {
         mBuyProxy.buy();
     }
-
 }
